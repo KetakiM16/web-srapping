@@ -1,17 +1,25 @@
 {
-  "name": "webscrapping",
+  "name": "web-scrapping-mgo",
   "version": "1.0.0",
-  "main": "script2.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "HOF.js",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.6",
     "jspdf": "^2.3.1",
     "request": "^2.88.2"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "int-test": "mocha --require babel-core/register --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KetakiM16/web-scrapping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KetakiM16/web-scrapping/issues"
+  },
+  "homepage": "https://github.com/KetakiM16/web-scrapping#readme",
   "description": ""
 }
